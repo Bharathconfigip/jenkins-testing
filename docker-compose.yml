@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vscoderemotetrypython:
+    image: vscoderemotetrypython
+    build:
+      context: .
+      dockerfile: ./Dockerfile
