@@ -1,5 +1,4 @@
 FROM centos:latest
-MAINTAINER bharath.g@ziniosedge.com
 Run yum install -y https \
 zip\
 unzip
